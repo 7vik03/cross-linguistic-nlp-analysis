@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This repository houses the code and data for a cross-linguistic study analyzing the structural and thematic differences between dialogue and descriptive sections in classical texts. Focusing on Spanish and English translations of *Don Quixote*, the project employs Information Theory and Natural Language Processing (NLP) techniques—such as compression algorithms, lexical analysis, and dependency graph metrics—to quantitatively validate qualitative observations about translation strategies and linguistic efficiency.
+This repository houses the code and data for a cross-linguistic study analyzing the structural and thematic differences between dialogue and descriptive sections in classical texts. Focusing on Spanish and English translations of *Don Quixote*, the project employs Information Theory and Natural Language Processing (NLP) techniques, such as compression algorithms, lexical analysis, and dependency graph metrics to quantitatively validate qualitative observations about translation strategies and linguistic efficiency.
 
 The aim is to provide a robust framework for understanding how linguistic choices in dialogue versus description impact information content, redundancy, and thematic coherence across languages.
 
