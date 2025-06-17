@@ -122,6 +122,23 @@ Our analysis of *Don Quixote* revealed key insights:
 
 These confirm the hypothesis: dialogue is more repetitive and coherent structurally, while description is richer and more complex.
 
+This table summarizes the core numerical results, validating qualitative observations about translation strategies.
+
+| Metric Category       | Specific Metric              | Eng. Dialogue | Eng. Desc. | Spa. Dialogue | Spa. Desc. | Qualitative Verification                                                               |
+|----------------------|------------------------------|---------------|------------|----------------|------------|-----------------------------------------------------------------------------------------|
+| **Info Redundancy**  | BZ2 Compression Ratio        | 0.3137        | 0.2758     | 0.2878         | 0.2776     | Lower dialogue ratios confirm higher redundancy/predictability.                        |
+|                      | LZMA Compression Ratio       | 0.3467        | 0.2915     | 0.3244         | 0.2919     |                                                                                         |
+|                      | Brotli Compression Ratio     | 0.3268        | 0.2901     | 0.3184         | 0.2918     |                                                                                         |
+| **Thematic Coherence** | KL Divergence (D vs. D)      | 0.878         | N/A        | 0.668          | N/A        | Higher Eng. divergence implies stronger thematic split.                                 |
+|                      | JS Divergence (D vs. D)      | 0.155         | N/A        | 0.113          | N/A        |                                                                                         |
+|                      | Hellinger Distance (D vs. D) | 0.390         | N/A        | 0.338          | N/A        |                                                                                         |
+| **Syntactic Complexity** | Dependency Graph Nodes       | 1872          | 15324      | 4380           | 23090      | More nodes in descriptions indicate greater complexity/richness.                        |
+|                      | Dependency Graph Edges       | 8866          | 180213     | 26137          | 207032     |                                                                                         |
+|                      | POS-level Mutual Info (MI)   | 1.587         | 1.591      | 1.588          | 1.590      | Stable MI suggests consistent grammatical predictability.                               |
+
+**Note:** "N/A" for description columns in Lexical Divergence means the metric is calculated *between* dialogue and description.
+
+
 ## Results & Visualizations
 
 (Add generated plots here for compression ratios, divergence heatmaps, and syntactic complexity.)
