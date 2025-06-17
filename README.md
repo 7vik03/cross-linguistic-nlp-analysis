@@ -50,6 +50,7 @@ To set up the project locally, follow these steps:
 
 The repository is organized as follows:
 
+```
 .
 ├── data/
 │   ├── raw/                  # Original, unprocessed text files (e.g., full chapter texts)
@@ -59,8 +60,9 @@ The repository is organized as follows:
 │   ├── analysis/             # Core scripts for linguistic analysis and metric computation
 │   └── visualization/        # Scripts for generating plots and visual representations of results
 ├── .gitignore                # Specifies intentionally untracked files to ignore
-├── README.md                 # This file
-└── requirements.txt          # List of Python dependencies
+├── README.md                 # Project overview and usage instructions
+└── requirements.txt          # Python dependencies required for the project
+```
 
 ## Usage
 
