@@ -26,8 +26,8 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/cross-linguistic-dialogue-description-analysis.git
-    cd cross-linguistic-dialogue-description-analysis
+    git clone https://github.com/7vik03/cross-linguistic-nip-analysis.git
+    cd cross-linguistic-nip-analysis
     ```
 
 2. **Create a virtual environment (recommended):**
